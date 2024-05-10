@@ -12,7 +12,7 @@ export class DashboardComponent {
   }
 
   gotoAssignment(link:any){
-     this.route.navigateByUrl('assignment-one/'+link)
+     this.route.navigateByUrl(link)
   }
 
 }
